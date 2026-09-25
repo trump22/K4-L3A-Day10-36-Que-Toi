@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the summary of the paper 'Data Observability and Quality Gates for Production RAG Systems'?",
+    "answer": [
+      {
+        "type": "text",
+        "text": "The paper \"Data Observability and Quality Gates for Production RAG Systems\" discusses how silent data corruption in RAG pipelines can degrade the faithfulness of LLM answers without causing runtime errors. To address this, the authors introduce automated quality gates using Great Expectations 1.x to detect and prevent stale and malformed embeddings from being served.",
+        "extras": {
+          "signature": "CvkDAWkUfRMFofnKPADWKaL2YxEcOKxG62Hw7Vz6KY9Shl1Wziwrel6bfOmzq5TpA0lww+GEKvejTLZCxRZQsVyISz/CiwUT64jrV6dr+pqW8GhrKenvU1MIjBe8XSTXvjpQxuZK3JbsIWBxmcyvp1ATAbxf9IuVOjym5v3+RkNU34UjoobpWJUOgIEcvzi8SP8OuQXlSn6uSBU0qG8/tk1YgtKlDBjcQpTGUuinSqI8g1TErCzrsipOq6dyDv+TExQGQas9EcLeBfup07pAZsqUuH14t/CX5tM7IYGxcVAVhWZZ1c1QB42Me+y44EmTko3H1+uZ/0rtEPtj9QohTfjlpG4DqvaenGcyiowx0PU1tC4P0PJTpLdbKd2ZBfjRVs/0hZmnLmkL3HeiVFNx5QtlgUE/PMKg8QvMfmsWAIPbueGrY3hWmAZjieK1rJsIYBMlW7hf8OAQyseBe3m8jPS+/WMbOrmzt4kO95IgRiE1LufFTZEklNMtzMtwo4u5HqlFJ3XbJ4Kwngdr/qELR/bacwdZwhi73lg30Dk8s6A+5kzFBE9Oga8FSXx2ZQdSX3RGbHt9V5v+WjkMHr8ydT/Ud7XJlicPb+iVhcrP1yT3mlyNOq+vqHqWp/lC4VES1rPTa4HUUPN09HshkG5Opf9y3Jv22yky2RXYCQ=="
+        }
+      }
+    ]
+  }
+]
