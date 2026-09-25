@@ -1,0 +1,74 @@
+{
+  "report_name": "corrupted_quality_report",
+  "generated_at": "2026-09-25T15:40:30.800545+00:00",
+  "success": false,
+  "total_rows": 24,
+  "passed": 4,
+  "failed": 3,
+  "checks": [
+    {
+      "expectation": "ExpectTableRowCountToBeBetween",
+      "column": null,
+      "success": true,
+      "result": {
+        "observed_value": 24
+      }
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "column": "paper_id",
+      "success": true,
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0
+      }
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "column": "title",
+      "success": true,
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0
+      }
+    },
+    {
+      "expectation": "ExpectColumnValuesToNotBeNull",
+      "column": "text_for_embedding",
+      "success": true,
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0
+      }
+    },
+    {
+      "expectation": "ExpectColumnValuesToBeUnique",
+      "column": "paper_id",
+      "success": false,
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 10
+      }
+    },
+    {
+      "expectation": "ExpectColumnValueLengthsToBeBetween",
+      "column": "summary",
+      "success": false,
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 5
+      }
+    },
+    {
+      "expectation": "FreshnessCheck",
+      "column": "age_days",
+      "success": false,
+      "result": {
+        "stale_rows": 7,
+        "stale_ratio": 0.2917,
+        "threshold_days": 180,
+        "max_stale_ratio": 0.25
+      }
+    }
+  ]
+}
