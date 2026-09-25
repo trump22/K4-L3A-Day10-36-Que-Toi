@@ -24,7 +24,7 @@ class Paths:
     repaired_clean_csv: Path
     repaired_clean_json: Path
     repaired_embeddings_json: Path
-    eval_testset: Path
+    test_: Path
     baseline_metrics: Path
     baseline_answers: Path
     demo_answers: Path
