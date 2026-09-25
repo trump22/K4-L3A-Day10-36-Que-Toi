@@ -54,7 +54,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer perfectly matches the reference answer."
+      "reasoning": "The model answer is an exact match to the reference answer."
     }
   },
   {
@@ -112,7 +112,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer is completely accurate and matches the reference answer exactly."
+      "reasoning": "The model answer is identical to the reference answer."
     }
   },
   {
@@ -142,7 +142,7 @@
     "judge": {
       "score": 5,
       "correct": true,
-      "reasoning": "The model answer is an exact word-for-word match with the reference answer."
+      "reasoning": "The model answer is identical to the reference answer."
     }
   }
 ]
